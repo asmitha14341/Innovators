@@ -5,11 +5,11 @@ body {
   color: white;
 }
 
-/* HERO SECTION */
+/* HERO */
 .hero {
   text-align: center;
-  padding: 60px 20px;
-  background: linear-gradient(90deg, #0d1117, #161b22);
+  padding: 50px;
+  background: #161b22;
 }
 
 .glow {
@@ -19,8 +19,8 @@ body {
 
 /* SECTIONS */
 .section {
-  padding: 40px;
   text-align: center;
+  padding: 40px;
 }
 
 /* GRID */
@@ -35,21 +35,31 @@ body {
 .card {
   background: #161b22;
   padding: 20px;
-  width: 250px;
-  border-radius: 12px;
+  width: 260px;
+  border-radius: 10px;
   border: 1px solid #00ffcc;
   transition: 0.3s;
 }
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px #00ffcc;
+  box-shadow: 0 0 15px #00ffcc;
+}
+
+/* PROJECTS */
+.projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects li {
+  padding: 8px;
 }
 
 /* FOOTER */
-footer {
+.footer {
   text-align: center;
   padding: 20px;
   background: #161b22;
-  margin-top: 30px;
+  margin-top: 20px;
 }
